@@ -340,7 +340,7 @@ body {
   }
   .nav {
     transition: all .5s ease-in-out;
-    position: absolute;
+    position: fixed;
     display: block;
     width: 50%;
     background: #fff;
