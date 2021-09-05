@@ -385,3 +385,34 @@ body {
     font-size: 28px;
   }
 }
+.wrapper{
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+footer{
+  background-color: $dark;
+  padding-top: 20px;
+  padding-bottom: 20px; 
+}
+.footer{
+  background-color: $dark;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+}
+.social-network{
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  &-item{
+      margin-left: 10px;
+  }
+  &-link{
+      color: #fff;
+  }
+}
